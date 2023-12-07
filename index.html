@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Bucket Hosting</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This website is being hosted in an S3 bucket</h1>
+    </header>
+    <main>
+        <p>Welcome to my dummy website! We are leveraging the power of Amazon S3 bucket for hosting this website.</p>
+        <p>This is an example on how a website can be hosted on S3 buckets. Following are the steps how achieved:
+            <ul>
+                <li>Created an index.html file locally</li>
+                <li>Created a S3 bucket in AWS console and upload the index.html file on it.</li>
+                <li>Go to Properties Section and enable S3 bucket hosting website mode</li>
+                <li>Change the bucket policy so that anyone can access the content of bucket.</li>
+            </ul>
+        </p>
+        <!-- Add more content here as needed -->
+    </main>
+    <footer>
+        <p>&copy; 2023 Aman Pandey</p>
+    </footer>
+</body>
+</html>
